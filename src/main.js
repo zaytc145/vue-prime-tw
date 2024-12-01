@@ -16,7 +16,7 @@ import uiConfig from "@/config/ui.js";
 
 import App from './App.vue'
 import router from './router'
-import i18n from "@/lang";
+import i18n from "@/common/lang";
 import webSockets from "@/api/web-sockets.js";
 
 const app = createApp(App)

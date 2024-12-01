@@ -1,6 +1,6 @@
 import {createI18n} from "vue-i18n";
-import ru from "@/lang/ru.js";
-import en from "@/lang/en.js";
+import ru from "./ru.js";
+import en from "./en.js";
 
 export default createI18n({
     locale: 'ru',
