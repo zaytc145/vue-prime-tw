@@ -1,4 +1,4 @@
-import MainTheme from "@/themes/MainTheme.js";
+import MainTheme from "@/common/themes/MainTheme.js";
 
 export default {
     theme: {
