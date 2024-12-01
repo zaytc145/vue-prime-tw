@@ -1,8 +1,8 @@
-import {useUserStore} from "@/stores/user.js";
 import {useRouter} from "vue-router";
+import {useUser} from "@/composables/useUser.js";
 
 export default (to) => {
-    const {user} = useUserStore()
+    const {user} = useUser()
     const router = useRouter()
     if (to.meta?.auth === false) {
         return;
