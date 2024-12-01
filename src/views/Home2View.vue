@@ -1,5 +1,5 @@
 <template>
   <main>
-    <h1>home 2</h1>
+    <h1>{{ $t('message.hello')}}</h1>
   </main>
 </template>

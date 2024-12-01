@@ -1,5 +1,12 @@
 import {createI18n} from "vue-i18n";
+import ru from "@/lang/ru.js";
+import en from "@/lang/en.js";
 
 export default createI18n({
-    // something vue-i18n options here ...
+    locale: 'ru',
+    fallbackLocale: 'en',
+    messages: {
+        ru,
+        en
+    }
 })
